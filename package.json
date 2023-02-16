@@ -1,0 +1,29 @@
+{
+  "name": "lippeice-vite-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite build && vite preview",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage"
+  },
+  "dependencies": {
+    "rambda": "^7.4.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "util": "^0.12.5",
+    "vite": "^4.0.4",
+    "vite-plugin-compression": "^0.5.1",
+    "vitest": "^0.26.3"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=19.0.0"
+  }
+}
