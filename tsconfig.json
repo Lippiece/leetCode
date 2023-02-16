@@ -8,6 +8,9 @@
     "tests/**/*",
   ],
   "compilerOptions": {
+    "types": [
+      "vitest/globals"
+    ],
     "alwaysStrict": true,
     "jsx": "react-jsx",
     "watch": true,
